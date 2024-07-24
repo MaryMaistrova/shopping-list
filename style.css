@@ -1,0 +1,31 @@
+body {
+  background-color: #3B3F45;
+  font-family: "roboto";
+  max-width: 793px;
+  max-height: 507px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24;
+}
+
+h3 {
+  font-size: 18;
+}
+
+h4 {
+  font-size: 16;
+}
+
+header {
+  background-color: #4A4F56;
+  color: #FF8984;
+  text-align: center;
+  
+}
+
+fieldset {
+  background-color: #88839E;
+  color: #fff;
+}
