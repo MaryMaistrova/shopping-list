@@ -1,9 +1,12 @@
 body {
-  background-color: #3B3F45;
   font-family: "roboto";
-  max-width: 793px;
-  max-height: 507px;
+  width: 793px;
+  height: 507px;
   margin: auto;
+}
+
+div {
+  background-color: #3B3F45;
 }
 
 h1 {
@@ -28,4 +31,10 @@ header {
 fieldset {
   background-color: #88839E;
   color: #fff;
+  font-size: 18;
 }
+
+footer {
+  background-color: #4A4F56;
+}
+
