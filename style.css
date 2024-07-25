@@ -1,40 +1,71 @@
 body {
-  font-family: "roboto";
-  width: 793px;
-  height: 507px;
+  font-family: "roboto", sans-serif;
   margin: auto;
-}
-
-div {
+  width: 793px;
   background-color: #3B3F45;
 }
 
+li {
+  background-color: #88839E;
+  width: 534px;
+  height: 45px;
+  list-style: none;
+  font-size: 18px;
+  margin: 0px 130px  0px -38px;
+  padding-top: 10px;
+  padding-bottom: -10px;
+}
+
 h1 {
-  font-size: 24;
+  font-size: 24px;
+  margin-bottom: 4px;
 }
 
 h3 {
-  font-size: 18;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 16;
+  font-size: 16px;
+  margin-top: 0;
 }
 
 header {
   background-color: #4A4F56;
   color: #FF8984;
   text-align: center;
-  
+  width: 793px;
+  height: 82px;
+  margin-bottom: 20px;
+
 }
 
-fieldset {
-  background-color: #88839E;
+form {
+  width: 534px;
   color: #fff;
-  font-size: 18;
+  margin: auto;
+}
+
+li:nth-child(even) {
+  background-color: #7A7593;
+}
+
+li:hover {
+  background-color: #625E77;
+  border: 2px solid #fff;
+  border-left: none;
+  border-right: none;
+}
+
+input:checked {
+  text-decoration: line-through;
 }
 
 footer {
   background-color: #4A4F56;
+  width: 534px;
+  height: 45px;
+  margin: 45px 130px 45px 130px;
+  color: #FF8984;
+  text-align: center;
 }
-
