@@ -2,13 +2,20 @@ body {
   font-family: "roboto", sans-serif;
   margin: auto;
   width: 793px;
+  background-color: #fff;
+  transition: all .1s ease-in;
+}
+
+.container {
+  width: 793px;
+  height: 507px;
   background-color: #3B3F45;
 }
 
 li {
   background-color: #88839E;
   width: 534px;
-  height: 25px;
+  height: 35px;
   list-style: none;
   font-size: 18px;
   margin: 0px 130px  0px -38px;
@@ -19,10 +26,12 @@ li {
 h1 {
   font-size: 24px;
   margin-bottom: 4px;
+  padding-top: 10px;
 }
 
 h3 {
   font-size: 18px;
+  padding-top: 10px;
 }
 
 h4 {
@@ -44,6 +53,7 @@ form {
   width: 534px;
   color: #fff;
   margin: auto;
+  text-indent: 10px;
 }
 
 li:nth-child(even) {
@@ -64,6 +74,60 @@ li:hover {
 
 li:active {
   background-color: #FF8984;
+}
+
+span {
+  font-size: 12px;
+}
+
+.cucumber::before {
+  content: "(";
+  color: #fff;
+}
+
+.apple::before {
+  content: "(";
+  color: #fff;
+}
+
+.orange::before {
+  content: "(";
+  color: #fff;
+}
+
+.plate::before {
+  content: "(";
+  color: #fff;
+}
+
+.sakebottle::before {
+  content: "(";
+  color: #fff;
+}
+
+.cucumber::after {
+  content: ")";
+  color: #fff
+}
+
+.apple::after {
+  content: ")";
+  color: #fff;
+}
+
+.orange::after {
+  content: ")";
+  color: #fff;
+}
+
+.plate::after {
+  content: ")";
+  color: #fff;
+}
+
+.sakebottle::after {
+  content: ")";
+  color: #fff;
 }
 
 footer {
