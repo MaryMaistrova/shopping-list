@@ -3,7 +3,6 @@ body {
   margin: auto;
   width: 793px;
   background-color: #fff;
-  transition: all .1s ease-in;
 }
 
 .container {
@@ -15,12 +14,14 @@ body {
 li {
   background-color: #88839E;
   width: 534px;
-  height: 35px;
+  height: 31px;
   list-style: none;
   font-size: 18px;
-  margin: 0px 130px  0px -38px;
+  margin: 0px 130px 0px -38px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
   padding-top: 10px;
-  padding-bottom: -10px;
+  transition: 400ms;
 }
 
 h1 {
@@ -60,16 +61,16 @@ li:nth-child(even) {
   background-color: #7A7593;
 }
 
-input:checked + label {
+input:checked+label {
   text-decoration: line-through;
   color: gray;
 }
 
 li:hover {
   background-color: #625E77;
-  border: 2px solid #fff;
   border-left: none;
   border-right: none;
+  border-color: #fff;
 }
 
 li:active {
@@ -80,54 +81,20 @@ span {
   font-size: 12px;
 }
 
-.cucumber::before {
+span::before {
   content: "(";
-  color: #fff;
 }
 
-.apple::before {
-  content: "(";
-  color: #fff;
-}
-
-.orange::before {
-  content: "(";
-  color: #fff;
-}
-
-.plate::before {
-  content: "(";
-  color: #fff;
-}
-
-.sakebottle::before {
-  content: "(";
-  color: #fff;
-}
-
-.cucumber::after {
+span::after {
   content: ")";
-  color: #fff
 }
 
-.apple::after {
-  content: ")";
+::before, ::after {
   color: #fff;
 }
 
-.orange::after {
-  content: ")";
-  color: #fff;
-}
-
-.plate::after {
-  content: ")";
-  color: #fff;
-}
-
-.sakebottle::after {
-  content: ")";
-  color: #fff;
+:checked +label ::before, :checked +label ::after {
+  color: gray;
 }
 
 footer {
